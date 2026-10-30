@@ -1,0 +1,51 @@
+
+===== CYBER THREAT LOG REPORT =====
+Name: Anthonie Reyes Cotanda
+Handle: aSkyrc
+Start Time: 2026-10-30 00:37:50.308216
+End Time: 2026-10-30 00:44:34.126063
+Duration (minutes): 6.73
+Score: 4/10
+Rating: BEGINNER
+---- Threat Logs ----
+Threat: SMB Ransomware Attack
+ALERT: Failed login attempt detected from 192.168.1.244 on port
+ALERT: Failed login attempt detected from 192.168.1.138 on port
+-------------------
+Threat: HTTP Web Exploit
+ALERT: Failed login attempt detected from 192.168.1.232 on port
+NOTICE: Suspicious traffic pattern detected targeting port 
+-------------------
+Threat: Telnet Credential Theft
+ALERT: Possible brute force attempt detected
+NOTICE: Suspicious traffic pattern detected targeting port 
+-------------------
+Threat: Proxy Web Exploit
+NOTICE: Suspicious traffic pattern detected targeting port 
+ALERT: Failed login attempt detected from 192.168.1.177 on port
+-------------------
+Threat: DNS Amplification DDoS
+ALERT: Possible brute force attempt detected
+ALERT: Failed login attempt detected from 192.168.1.110 on port
+-------------------
+Threat: HTTPS Web Exploit
+WARNING: Multiple authentication failures for service
+ALERT: Possible brute force attempt detected
+-------------------
+Threat: FTP Credential Sniffing
+CRITICAL: Ransomware activity suspected via
+ALERT: Possible brute force attempt detected
+-------------------
+Threat: SSH Brute Force Attack
+CRITICAL: Ransomware activity suspected via
+ALERT: Failed login attempt detected from 192.168.1.235 on port
+-------------------
+Threat: RDP Brute Force Attack
+ALERT: Failed login attempt detected from 192.168.1.142 on port
+NOTICE: Suspicious traffic pattern detected targeting port 
+-------------------
+Threat: POP3 Credential Sniffing
+CRITICAL: Ransomware activity suspected via
+NOTICE: Suspicious traffic pattern detected targeting port 
+-------------------
+===================================
